@@ -1,3 +1,15 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 5px;
+}
+
+main
+{
+    display: flex;
+}
+
 
 main, header, nav, article, aside, footer {
     border: solid 1px black;
