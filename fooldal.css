@@ -1,0 +1,15 @@
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+article>div {
+    margin: 10px;
+    flex: 0 0 30%;
+}
+
+img {
+    width: 100%;
+}
