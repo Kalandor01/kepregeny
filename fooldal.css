@@ -8,6 +8,7 @@ header, nav, article, aside, footer, li {
     box-sizing: border-box;
     margin: 0px;
     padding: 5px;
+    font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
 }
 
 main
