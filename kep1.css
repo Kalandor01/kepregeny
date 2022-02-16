@@ -5,9 +5,50 @@
     padding: 5px;
 }
 
+body
+{
+    background-color: #e9c46a;
+}
+
+/* színek: */
+#szin
+{
+    background-color: #2a9d8f;
+    color: #264653;
+    color: #2a9d8f;
+    color: #e9c46a;
+    color: #f4a261;
+    color: #e76f51;
+}
+
+header
+{
+    background-color: #264653;
+}
+
+nav
+{
+    background-color: #e76f51;
+}
+
+article
+{
+    background-color: #f4a261;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 main
 {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 5px;
     display: flex;
+    flex:0 0 25%;
+    flex-direction: column;
+    background-color: #2a9d8f;
 }
 
 
