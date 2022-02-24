@@ -89,7 +89,10 @@ footer
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
-    background-color: #ffb703;
+    background-color: #ffb703 /* bf0603 */;
+    /* color: #bf0603; */
+    font-weight: bold;
+    border: 1px solid black;
     width: 80%;
     border-radius: 5px;
     padding: 10px;
