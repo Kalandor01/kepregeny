@@ -88,6 +88,12 @@ footer
 {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    background-color: #ffb703;
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
 }
 
 @media screen and (max-width:600px) {
