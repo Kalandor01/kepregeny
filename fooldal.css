@@ -1,3 +1,10 @@
+header h1
+{
+    font-family: 'Bangers', cursive;
+    font-size: 36pt;
+    letter-spacing: 15px;
+    padding-top: 10px;
+}
 
 article {
     display: flex;
@@ -7,10 +14,11 @@ article {
 
 article>div {
     margin: 10px;
-    flex: 0 0 30%;
+    /* flex: 0 0 30%; */
 }
 
 img {
     width: 100%;
+    max-width: 400px;
     border-radius: 5px;
 }

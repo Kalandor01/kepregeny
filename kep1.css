@@ -1,10 +1,4 @@
 
-
-body
-{
-    
-}
-
 /* színek: */
 #szin
 {
@@ -16,16 +10,6 @@ body
     color: #e76f51;
 }
 
-header
-{
-    
-}
-
-nav
-{
-    
-}
-
 article
 {
     display: flex;
@@ -34,10 +18,15 @@ article
     gap: 20px;
 }
 
-main
+.kepszerkezet img
 {
+    width: 600px;
+}
 
-
-
-
+@media screen and (max-width:600px) {
+    
+    .kepszerkezet img
+    {
+        max-width: 400px;
+    }
 }

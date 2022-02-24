@@ -1,43 +1,57 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Open+Sans&display=swap');
+/* :root {
     --color_main: #0081a7;
     --color_header: #f07167;
-    --color_nav: #fdfcdc;
-    --color_li: #fed9b7;
+    --color_nav: /* #fdfcdc ;
+    --color_li: #d90429/* #fed9b7 ;
     --color_li_hover: #ffc790;
     --color_article: #00afb9;
     --color_footer: #fed9b7;
-  }
+  } 
+  */
 
-header, nav, article, aside, footer, li {
-    border: solid 1px black;
+body, main, article, footer, nav ul, header, nav ul li 
+{
+    background-color: #001233;
+}
+
+
+
+header, nav, article, aside, footer, li 
+{
     padding: 5px;
 }
+
 
 *
 {
     box-sizing: border-box;
     margin: 0px;
-    font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
 }
 
 main
 {
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    background-color: var(--color_main);
+    padding: 5px;
     border-radius: 5px;
 }
 
 header {
     text-align: center;
-    background-color: var(--color_header);
+    background-color: #bf0603;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25pt;
 }
 
-nav {
-    background-color: var(--color_nav);
+nav img
+{
+    max-width: 50px;
 }
 
 nav ul {
@@ -47,43 +61,40 @@ nav ul {
     flex-direction: row;
     justify-content: center;
     gap: 5px;
+    
 }
 
-nav ul li {
-    background-color: var(--color_li);
+
+nav ul li:hover 
+{
+    
+    background-color: #bf0603;
 }
 
-nav ul li:hover {
-    background-color: var(--color_li_hover);
-}
-
-nav ul li a {
+nav ul li a 
+{
     display: block;
     text-decoration: none;
     color: black;
 }
 
-nav ul li a:hover {
+nav ul li a:hover 
+{
     color: white;
 }
 
-article {
-    background-color: var(--color_article);
-}
 
-aside {
-    background-color: var(--color_article);
-}
-
-footer {
+footer 
+{
     text-align: center;
-    background-color: var(--color_footer);
+    font-family: 'Open Sans', sans-serif;
 }
-
 
 @media screen and (max-width:600px) {
-    nav ul {
-        flex-direction: column;
+    article
+    {
+        flex-wrap: wrap;
     }
 
 }
+
