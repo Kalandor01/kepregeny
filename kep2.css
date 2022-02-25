@@ -1,0 +1,22 @@
+article
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    justify-content: center;
+}
+.kepszerkezet img
+{
+    width: 600px;
+}
+
+@media screen and (max-width:600px) {
+    
+    .kepszerkezet img
+    {
+
+        max-width: 400px;
+    }
+    
+}
